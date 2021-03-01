@@ -1,49 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/index.css">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css" />
+
     <title>Web Page</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <header class="header">
-        
-        <div class="header__logoContainer">
-            <img src="./images/Icons/logo.svg" alt="Logo">
-        </div>
+      <div class="header__logoContainer">
+        <img src="./images/Icons/logo.svg" alt="Logo" />
+      </div>
 
-        <nav class="header__menu">
-            <a href="">ABOUT</a>
-            <a href="">OUR PRODUCT</a>
-            <a href="">FACTORIES</a>
-            <a href="">CONTACT US</a>
-        </nav>
+      <nav class="header__menu">
+        <a href="">ABOUT</a>
+        <a href="">OUR PRODUCT</a>
+        <a href="">FACTORIES</a>
+        <a href="">CONTACT US</a>
+      </nav>
 
-        <div class="header__search">
-            <input class="header__search-input" type="text" placeholder="Search">
-            <img class="header__search-img" src="./images/Icons/search logo.svg" alt="Search logo">
-        </div>
+      <div class="header__search">
+        <input
+          class="header__search-input"
+          type="search"
+          placeholder="Search"
+        />
+        <img
+          class="header__search-img"
+          src="./images/Icons/search logo.svg"
+          alt="Search logo"
+        />
+      </div>
 
-        <div class="header__socialMedia">
-            <img src="./images/Icons/Youtube.svg" alt="Youtube">
-            <img src="./images/Icons/twitter.svg" alt="Twitter">
-            <img src="./images/Icons/facebook.svg" alt="Facebook">
-            <img src="./images/Icons/instagram.svg" alt="Instagram">
-        </div>
+      <div class="header__socialMedia">
+        <img src="./images/Icons/Youtube.svg" alt="Youtube" />
+        <img src="./images/Icons/twitter.svg" alt="Twitter" />
+        <img src="./images/Icons/facebook.svg" alt="Facebook" />
+        <img src="./images/Icons/instagram.svg" alt="Instagram" />
+      </div>
     </header>
 
     <section class="Welcome">
-        <div class="Welcome-textContainer">
-            <h1>Welcome to Web Page</h1>
-            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-        </div>
-        
-        <img class="Welcome-Arrow" src="./images/Icons/arrow.svg" alt="arrow">
+      <div class="Welcome-textContainer">
+        <h1>Welcome to Web Page</h1>
+        <p>
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet.
+        </p>
+      </div>
+
+      <img class="Welcome-Arrow" src="./images/Icons/arrow.svg" alt="arrow" />
     </section>
-    
-</body>
+
+    <section class="about">
+      <div class="about__container">
+        <h3 class="about__container-title">ABOUT US</h3>
+        <p class="about__container-paragh">
+          orem ipsum dolor sit onec vitae lectus ultricies, placerat lectus
+          scelerisque, accumsan nisl. Donec porttitor sem ut congue elementum.
+          Sed luctus, odio in varius feugiat, erat nulla tincidunt elit, et
+          sodales lorem diam eget risus. Sed imperdiet quam ut elementum
+          fermentum. Integer at viverra nibh, quis luctus metus. Maecenas
+          ultrices metus et velit ornare facilisis. Proin at ante quis nisl
+          pellentesque mattis eget in sem. Mauris nulla arcu, tincidunt eget
+          dolor sit amet, elementum iaculis metus. Curabitur consequat, metus
+          laoreet dignissim rhoncus, metus nunc congue neque, sit amet porta
+          velit enim at nunc. Suspendisse in dui vel orci ornare consectetur.
+          Curabitur massa felis, commodo vitae pretium ut, interdum eu nisi.
+        </p>
+      </div>
+    </section>
+
+    <section class="Products-and-services">
+      <div class="Products-and-services__info">
+        <h3>PRODUCTS AND SERVICES</h3>
+        <p>
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet.
+        </p>
+      </div>
+
+      <div class="carrusel_container">
+        <div class="carrusel">
+          <picture class="row">
+            <img
+              class="row-left"
+              src="./images/Icons/row-left.svg"
+              alt="arrow left"
+            />
+          </picture>
+
+          <!-- here input the cards with image -->
+          <div class="carrusel__scroll">
+            <!-- make imagen with description -->
+
+            <picture class="image__container">
+              <img
+                class="imag-product"
+                src="./images/pictures/produ1.jpg"
+                alt=""
+              />
+              <figcaption>Imagen description</figcaption>
+            </picture>
+
+            <picture class="image__container">
+              <img
+                class="imag-product"
+                src="./images/pictures/produ1.jpg"
+                alt=""
+              />
+              <figcaption>Imagen description</figcaption>
+            </picture>
+
+            <picture class="image__container">
+              <img
+                class="imag-product"
+                src="./images/pictures/produ1.jpg"
+                alt=""
+              />
+              <figcaption>Imagen description</figcaption>
+            </picture>
+
+            <picture class="image__container">
+              <img
+                class="imag-product"
+                src="./images/pictures/produ1.jpg"
+                alt=""
+              />
+              <figcaption>Imagen description</figcaption>
+            </picture>
+          </div>
+
+          <picture class="row">
+            <img
+              class="row-right"
+              src="./images/Icons/row-right.svg"
+              alt="arrow right"
+            />
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <div class="div_section"></div>
+
+    <section class="contact_us">
+      <div class="contact_us__container">
+        <h3 class="contact_us__container-title">CONTACT US</h3>
+
+        <section class="infoForm-container">
+          <aside class="info">
+            <h5 class="info-title">VISIT OUR OFFICE</h5>
+            <div>
+              <img
+                class="info-img"
+                src="./images/Icons/location.svg"
+                alt="Location"
+              />
+              <span class="info-data"
+                >3517 W. Gray St. Utica, Pennsylvania 57867</span
+              >
+            </div>
+
+            <div>
+              <img
+                class="info-img"
+                src="./images/Icons/phone.svg"
+                alt="Location"
+              />
+              <span class="info-data">(225) 555-0118</span>
+            </div>
+
+            <div>
+              <img
+                class="info-img"
+                src="./images/Icons/email.svg"
+                alt="Location"
+              />
+              <span class="info-data">emailwebpage@gov.ec</span>
+            </div>
+
+            <div>
+              <img
+                class="info-img"
+                src="./images/Icons/logo clock.svg"
+                alt="Location"
+              />
+              <span class="info-data">Mon - Fri 7:30 am to 3:30 pm</span>
+            </div>
+          </aside>
+
+          <form class="form_contactUs" action="">
+            <p>
+              Please fill out the form below and one of our representatives will
+              be in touch with you in the near future.
+            </p>
+
+            <label for="name">
+              <span>Name</span>
+              <input
+                class="input_data"
+                type="text"
+                id="name"
+                name="name"
+                autocomplete="name"
+                placeholder="Name"
+                required
+              />
+            </label>
+
+            <label for="email">
+              <span>Email</span>
+              <input
+                class="input_data"
+                type="email"
+                id="email"
+                name="email"
+                autocomplete="email"
+                placeholder="xxx@mail.com"
+                required
+              />
+            </label>
+
+            <label for="phone">
+              <span>Phone Number (optional)</span>
+              <input
+                class="input_data"
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="(+59) 458 784"
+                autocomplete="tel"
+              />
+            </label>
+
+            <label class="description_input" for="description">
+              <span>Add additional notes here (optional)</span>
+              <textarea
+                rows="5"
+                cols="50"
+                id="description"
+                placeholder="Some description"
+              ></textarea>
+            </label>
+
+            <input class="submit" type="submit" value="Send" />
+          </form>
+        </section>
+      </div>
+    </section>
+
+    <footer></footer>
+  </body>
 </html>

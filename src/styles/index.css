@@ -127,3 +127,238 @@ body{
     align-self: center;
     margin-bottom: 32.75px;
 }
+
+.about{
+    display: flex;
+    justify-content: center;
+}
+
+.about__container{
+    height: 251px;
+    width: 930px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #002C45;
+}
+
+.about__container-title{
+    font-size: 27px;
+    font-weight: bold;
+    margin-top: 16.5px;
+    margin-bottom: 0px;
+}
+
+.about__container-paragh{
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 21px;
+}
+
+.Products-and-services{
+    height: 593px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #002C45;
+    background: url("../images/pictures/bote_mar.jpg");
+}
+
+.Products-and-services__info{
+    height: 142px;
+    width: 740px;
+    margin-top: 17px;
+}
+
+.Products-and-services__info h3{
+    color: #0A9EF2;
+    text-shadow: 0px 4px 7px rgba(6, 98, 150, 0.38);
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px
+}
+
+.Products-and-services__info p{
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.carrusel_container{
+    height: 374px;
+    width: 930px;
+    margin-top: 43px;
+}
+
+.carrusel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.row{
+    width: 74px;
+    height: 322px;
+    background: rgba(247, 252, 255, 0.39);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row img{
+    height: 126px;
+    width: 37.37px;
+}
+
+.carrusel__scroll{
+    width: 706px;
+    display:flex;
+    overflow: hidden;
+    
+}
+
+.image__container{
+    width: 264px;
+    height: 322px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 17px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.imag-product{
+    height: 264px;
+    width: 267px;
+    background: url(148292872_443700400106520_2529403439203441225_n.jpg);
+    filter: drop-shadow(0px 4px 10px rgba(0, 44, 69, 0.2));
+    border-radius: 30px;
+}
+
+figcaption{
+    background: rgba(247, 252, 255, 0.31);
+    border-radius: 10px;
+    color: #0272B2;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    width: 233px;
+    height: 45px;
+    margin-top: 23px;
+    margin-bottom: 5px;
+}
+
+.div_section{
+    height: 31px;
+    background: linear-gradient(180deg, rgba(2, 114, 178, 0.87) 0%, rgba(0, 44, 69, 0.87) 100%);
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.19);
+}
+
+.contact_us{
+    height: 100vh;
+    background: rgba(0, 44, 69, 0.7);
+    color: #F7FCFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact_us__container-title{
+    font-weight: bold;
+    font-size: 27px;
+    text-align: center;
+}
+
+.infoForm-container{
+    display: flex;
+    justify-content: space-between;
+    width: 921px;
+}
+
+.info h5{
+    font-size: 18px;
+    width: 383px;
+    margin: 0px 0px 35px 0px;
+}
+
+.info div{
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.info-img{
+    height: 32px;
+    width: 32px;
+    margin-right: 43px;
+}
+
+.info-data{
+    font-size: 18px;
+}
+
+.form_contactUs{
+    display: flex;
+    flex-direction: column;
+    width: 445px;
+    font-size: 18px;
+    
+}
+
+.contact_us p{
+    margin: 0px 0px 15px 0px;
+    text-align: justify;
+}
+
+.form_contactUs label{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.input_data{
+    background: #F7FCFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22.5px;
+    height: 21px;
+    width: 93%;
+    border: None;
+    margin-top: 6px;
+    padding: 7.5px 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #002C45;
+}
+
+.description_input textarea{
+    background: #F7FCFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22.5px;
+    border: 0px;
+    width: 93%;
+    height: 100px;
+    margin-top: 6px;
+    margin-bottom: 17px;
+    padding: 7.5px 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #002C45;
+
+}
+
+.submit{
+    background: #0A9EF2;
+    box-shadow: 0px 4px 8px rgba(23, 36, 43, 0.2);
+    border-radius: 24px;
+    width: 182px;
+    height: 35px;
+    font-size: 22px;
+    border: 0px;
+    color: #F7FCFF;
+    align-self: center;
+}

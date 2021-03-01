@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form class="form_contactUs" action="">
+      <p>
+        Please fill out the form below and one of our representatives will be in
+        touch with you in the near future.
+      </p>
+
+      <label for="name">
+        <span>Name</span>
+        <input
+          class="input_data"
+          type="text"
+          id="name"
+          name="name"
+          autocomplete="name"
+          placeholder="Name"
+          required
+        />
+      </label>
+
+      <label for="email">
+        <span>Email</span>
+        <input
+          class="input_data"
+          type="email"
+          id="email"
+          name="email"
+          autocomplete="email"
+          placeholder="xxx@mail.com"
+          required
+        />
+      </label>
+
+      <label for="phone">
+        <span>Phone Number (optional)</span>
+        <input
+          class="input_data"
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="(+59) 458 784"
+          autocomplete="tel"
+        />
+      </label>
+
+      <label class="description_input" for="description">
+        <span>Add additional notes here (optional)</span>
+        <textarea
+          rows="5"
+          cols="50"
+          id="description"
+          placeholder="Some description"
+        ></textarea>
+      </label>
+
+      <input class="submit" type="submit" value="Send" />
+    </form>
+  </body>
+</html>
