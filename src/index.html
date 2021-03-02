@@ -74,6 +74,7 @@
       </div>
     </section>
 
+    <!-- Aqui se crea secciones con el carrusel -->
     <section class="Products-and-services">
       <div class="Products-and-services__info">
         <h3>PRODUCTS AND SERVICES</h3>
@@ -86,7 +87,7 @@
 
       <div class="carrusel_container">
         <div class="carrusel">
-          <picture class="row">
+          <picture class="row" id="row-left-1">
             <img
               class="row-left"
               src="./images/Icons/row-left.svg"
@@ -95,7 +96,7 @@
           </picture>
 
           <!-- here input the cards with image -->
-          <div class="carrusel__scroll">
+          <div class="carrusel__scroll" id="scroll-1">
             <!-- make imagen with description -->
 
             <picture class="image__container">
@@ -135,7 +136,7 @@
             </picture>
           </div>
 
-          <picture class="row">
+          <picture class="row" id="row-right-1">
             <img
               class="row-right"
               src="./images/Icons/row-right.svg"
@@ -147,6 +148,79 @@
     </section>
 
     <div class="div_section"></div>
+
+    <!-- Aqui se crea secciones con el carrusel -->
+    <section class="Products-and-services factori">
+      <div class="Products-and-services__info">
+        <h3>FACTORIES</h3>
+        <p>
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet.
+        </p>
+      </div>
+
+      <div class="carrusel_container">
+        <div class="carrusel">
+          <picture class="row" id="row-left-2">
+            <img
+              class="row-left"
+              src="./images/Icons/row-left.svg"
+              alt="arrow left"
+            />
+          </picture>
+
+          <!-- here input the cards with image -->
+          <div class="carrusel__scroll" id="scroll-2">
+            <!-- make imagen with description -->
+
+            <picture class="image__container">
+              <img
+                class="imag-product"
+                src="./images/pictures/produ1.jpg"
+                alt=""
+              />
+              <figcaption>Imagen description</figcaption>
+            </picture>
+
+            <picture class="image__container">
+              <img
+                class="imag-product"
+                src="./images/pictures/produ1.jpg"
+                alt=""
+              />
+              <figcaption>Imagen description</figcaption>
+            </picture>
+
+            <picture class="image__container">
+              <img
+                class="imag-product"
+                src="./images/pictures/produ1.jpg"
+                alt=""
+              />
+              <figcaption>Imagen description</figcaption>
+            </picture>
+
+            <picture class="image__container">
+              <img
+                class="imag-product"
+                src="./images/pictures/produ1.jpg"
+                alt=""
+              />
+              <figcaption>Imagen description</figcaption>
+            </picture>
+          </div>
+
+          <picture class="row" id="row-right-2">
+            <img
+              class="row-right"
+              src="./images/Icons/row-right.svg"
+              alt="arrow right"
+            />
+          </picture>
+        </div>
+      </div>
+    </section>
 
     <section class="contact_us">
       <div class="contact_us__container">
@@ -254,6 +328,35 @@
       </div>
     </section>
 
-    <footer></footer>
+    <footer class="footer">
+      <section class="footer__info">
+        <div class="footer__contact">
+          <img src="./images/Icons/logo.svg" alt="logo" />
+          <section>
+            <p>3517 W. Gray St. Utica, Pennsylvania 57867</p>
+            <p>Phone: (702) 555-0122</p>
+            <p>Fax: (671) 555-0110</p>
+            <p>tranthuy.nute@gmail.com</p>
+          </section>
+        </div>
+
+        <div class="social-media">
+          <p>Follow us</p>
+          <section>
+            <img src="./images/Icons/Youtube.svg" alt="" />
+            <img src="./images/Icons/twitter.svg" alt="" />
+            <img src="./images/Icons/facebook.svg" alt="" />
+            <img src="./images/Icons/instagram.svg" alt="" />
+          </section>
+        </div>
+      </section>
+
+      <section class="copywriten">
+        <p>Copyright @ 2021 All rights reserved.</p>
+      </section>
+    </footer>
+
+    <!-- Script para mover las imagenes de carrusel -->
+    <script src="./index.js"></script>
   </body>
 </html>
